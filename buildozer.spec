@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,mp3,wav,ttf
 version = 0.1
-requirements = python3,kivy
+requirements = python3==3.11.5,kivy,pyjnius==1.8.0
 orientation = portrait
 fullscreen = 1
 android.archs = arm64-v8a
